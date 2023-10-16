@@ -65,3 +65,7 @@ h2 {
 .table-row-style {
     background-color: grey;
 }
+
+.include-padding {
+    padding: 10px;
+}
