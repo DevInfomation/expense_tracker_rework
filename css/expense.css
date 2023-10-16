@@ -19,6 +19,27 @@ h2 {
     color: var(--primary-colour);
 }
 
-.flexbox {
-    display: flex;
+.fields {
+    margin: auto;
+    width: 680px;
+    padding: 10px;
+}
+
+.input-field  {
+    width: 260px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid black;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.selection-field {
+    width: 260px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid black;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: white;
 }
