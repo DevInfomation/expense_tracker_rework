@@ -1,1 +1,1 @@
-something for the moment so I can add it to the github
+Creating my new Expense tracker while using also git to perfect my craft.
