@@ -69,3 +69,7 @@ h2 {
 .include-padding {
     padding: 10px;
 }
+
+.insert-here { 
+    background-color: lightgrey;
+}
