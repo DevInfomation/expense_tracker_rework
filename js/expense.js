@@ -8,6 +8,10 @@ const mainTable = document.getElementById('main-table');
 btn.addEventListener('click', e => {
     e.preventDefault();
 
+    let createTr = document.createElement('tr');
+    createTr.classList.add('table-row-header');
+    mainTable.append(createTr);
+
     const typeTD = document.createElement('td');
     const inputNameTD = document.createElement('td');
     const dateTD = document.createElement('td');
@@ -15,8 +19,8 @@ btn.addEventListener('click', e => {
 
     typeTD.textContent = cards.value;
     inputNameTD.textContent = inputName.value;
-    date.textContent = date.value;
-    amount.textContent = '$' + amount.value;
+    dateTD.textContent = date.value;
+    amountTD.textContent = '$' + amount.value;
 
 
 
