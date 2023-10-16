@@ -54,3 +54,14 @@ h2 {
     padding: 5px;
     cursor: pointer;
 }
+
+.table {
+    margin: auto;
+    background-color: black;
+    width: 60rem;
+
+}
+
+.table-row-style {
+    background-color: grey;
+}
